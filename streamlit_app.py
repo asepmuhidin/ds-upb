@@ -32,7 +32,7 @@ run_snow_animation()
 with open(CSS_FILE) as f:
     st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
 
-st.image("assets/me.jpeg", width=180, caption="Asep Muhidin, S.Kom., M.Kom.")
+
 # Display header with personalized name
 st.header(f" UPB Data Science Playground ! ", anchor=False)
 
@@ -42,3 +42,11 @@ if st.button("Let's Go."):
 # Display the Lottie animation
 lottie_animation = load_lottie_animation(LOTTIE_ANIMATION)
 st_lottie(lottie_animation, key="lottie-robot", height=300)
+
+col1, col2 = st.columns([0.3, 0.7])
+with col1:
+    st.image("assets/me.jpeg", width=80)
+
+with col2:
+    st.write("Asep Muhidin")
+    st.write("Pelita Bangsa Univesity Lecturer ")
