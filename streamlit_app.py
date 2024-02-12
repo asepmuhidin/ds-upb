@@ -29,7 +29,7 @@ def get_person_name():
 
 
 # Page configuration
-st.set_page_config(page_title="Happy Holidays", page_icon="🎄")
+st.set_page_config(page_title="Welcome to DS-UPB", page_icon="🎄")
 
 # Run snowfall animation
 run_snow_animation()
@@ -50,49 +50,3 @@ st_lottie(lottie_animation, key="lottie-holiday", height=300)
 st.markdown(
     f"Dear {PERSON_NAME}, wishing you a wonderful holiday season filled with joy and peace. 🌟"
 )
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
