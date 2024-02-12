@@ -33,7 +33,7 @@ with open(CSS_FILE) as f:
     st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
 
 # Display header with personalized name
-st.header(f"Happy Data, ! ", anchor=False)
+st.header(f" UPB Data Science Playground ! ", anchor=False)
 
 if st.button("Let's Go."):
     st.write("why hello there")
