@@ -50,3 +50,9 @@ st_lottie(lottie_animation, key="lottie-holiday", height=300)
 st.markdown(
     f"Dear {PERSON_NAME}, wishing you a wonderful holiday season filled with joy and peace. 🌟"
 )
+st.header("st.button")
+
+if st.button("Say hello"):
+    st.write("why hello there")
+else:
+    st.write("goodbye")
