@@ -45,7 +45,7 @@ st_lottie(lottie_animation, key="lottie-robot", height=300)
 
 col1, col2 = st.columns([0.3, 0.7])
 with col1:
-    st.image("assets/me.jpeg", width=80)
+    st.image("assets/me.jpeg")
 
 with col2:
     st.write("Asep Muhidin")
