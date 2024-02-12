@@ -43,7 +43,7 @@ if st.button("Let's Go."):
 lottie_animation = load_lottie_animation(LOTTIE_ANIMATION)
 st_lottie(lottie_animation, key="lottie-robot", height=300)
 
-col1, col2 = st.columns([0.3, 0.7])
+col1, col2 = st.columns([0.1, 0.9])
 with col1:
     st.image("assets/me.jpeg")
 
