@@ -22,12 +22,6 @@ def run_snow_animation():
     rain(emoji="❄️", font_size=20, falling_speed=5, animation_length="infinite")
 
 
-# Function to get the name from query parameters
-def get_person_name():
-    query_params = st.experimental_get_query_params()
-    return query_params.get("name", ["Friend"])[0]
-
-
 # Page configuration
 st.set_page_config(page_title="Welcome to DS-UPB", page_icon="")
 
@@ -39,14 +33,11 @@ with open(CSS_FILE) as f:
     st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
 
 # Display header with personalized name
-PERSON_NAME = get_person_name()
-st.header(f"Happy Data, {PERSON_NAME}! ", anchor=False)
+st.header(f"Happy Data, ! ", anchor=False)
 
 if st.button("Let's Go."):
     st.write("why hello there")
-else:
-    st.write("goodbye")
 
 # Display the Lottie animation
 lottie_animation = load_lottie_animation(LOTTIE_ANIMATION)
-st_lottie(lottie_animation, key="lottie-holiday", height=300)
+st_lottie(lottie_animation, key="lottie-robot", height=300)
