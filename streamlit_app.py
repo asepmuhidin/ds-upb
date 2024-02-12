@@ -36,7 +36,7 @@ with open(CSS_FILE) as f:
 st.header(f" UPB Data Science Playground ! ", anchor=False)
 
 if st.button("Let's Go."):
-    st.write("why hello there")
+    st.write("will see, 🇮🇩️ 🇮🇩️")
 
 # Display the Lottie animation
 lottie_animation = load_lottie_animation(LOTTIE_ANIMATION)
