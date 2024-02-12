@@ -32,7 +32,7 @@ run_snow_animation()
 with open(CSS_FILE) as f:
     st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
 
-st.image("assets/me.jpeg", caption="Asep Muhidin, S.Kom., M.Kom.")
+st.image("assets/me.jpeg", width=180, caption="Asep Muhidin, S.Kom., M.Kom.")
 # Display header with personalized name
 st.header(f" UPB Data Science Playground ! ", anchor=False)
 
